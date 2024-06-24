@@ -137,6 +137,10 @@
         padding: 13px 15px;
     }
 
+    .social .twitter {
+        margin-right: 5px;
+    }
+
     .social .instagram {
         font-size: 1.2rem;
     }
