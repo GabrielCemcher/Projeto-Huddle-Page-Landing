@@ -1,0 +1,115 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--background-color-body); 
+    background-image: url('../images/bg-desktop.svg');
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.header {
+    max-width: 1440px;
+    padding: 25px 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.header .logo {
+    width: 218px;
+    
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    padding: 11px 40px 20px 40px;
+}
+
+.container .illustration {
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.container .information {
+    max-width: 650px;
+    padding: 50px 50px 50px 15px;
+    color: #fff;
+}
+
+.container .information .titulo {
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 30px 30px 20px 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container .information p {
+    font-size: 1.8rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.container .information .register-btn {
+    width: 200px;
+    font-size: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 37px;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: none;
+    color: var(--background-color-body);
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 5px 8px 20px 10px rgba(2, 0, 0, 0.171);
+}
+
+.container .information .register-btn:hover {
+    background-color: var(--color-magenta);
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.social i {
+    font-size: 1.5rem;
+    margin-left: 18.5px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: 0.3s;
+}
+
+.social i:hover {
+    color: var(--color-magenta);
+    border-color: var(--color-magenta);
+}
+
+.social .facebook {
+    font-size: 1.7rem;
+    background-color: transparent;
+    padding: 10px 13px;
+}
+
+.social .instagram {
+    font-size: 1.8rem;
+}
+
+
