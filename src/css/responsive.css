@@ -68,23 +68,24 @@
     }
     
     .social .facebook {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         padding: 15px 18px;
         margin-left: 36px;
         margin-right: 20;
     }
 
     .social .twitter {
+        font-size: 1.8rem;
         padding: 14px 14px;
-        margin-left: 5px;
-        margin-right: 22px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .social .instagram {
-        font-size: 2.8rem;
-        padding: 12px 12px;
+        font-size: 2.2rem;
+        padding: 12px 13px;
         margin-left: 0px;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }
 
@@ -128,9 +129,7 @@
       margin-bottom: 0px;
     }
 
-    .social i {
-        font-size: 1rem;
-    }
+
 
     .social .facebook {
         font-size: 1.2rem;
@@ -139,6 +138,7 @@
 
     .social .twitter {
         margin-right: 5px;
+        font-size: 1rem;
     }
 
     .social .instagram {

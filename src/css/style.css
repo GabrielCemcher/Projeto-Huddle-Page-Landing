@@ -6,7 +6,7 @@ body {
     background-color: var(--background-color-body); 
     background-image: url('../images/bg-desktop.svg');
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 150px auto;
     display: flex;
     flex-direction: column;
     
@@ -88,7 +88,11 @@ body {
     margin-right: 80px;
 }
 
-.social i {
+.social nav ul {
+    display: flex;
+}
+
+.social nav ul li i {
     font-size: 1.5rem;
     margin-left: 18.5px;
     padding: 10px;
